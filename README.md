@@ -16,7 +16,7 @@ pv dumps the `yourdbbackup.sql` and passes them to mysql (because of the pipe op
     chmod 755 clone.sh
 
 ## Configuration
-The script can easily be configured using the variables at the top of the script. These should be self-explanatory, and comments haven been included in the script to give you some more information. However, if you need assistants, feel free to text me on linkedin
+The script can easily be configured using the variables at the top of the script. These should be self-explanatory, and comments haven been included in the script to give you some more information. However, if you need assistants, leave a comment.
 
 **Remote db config**
 
