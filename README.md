@@ -1,6 +1,6 @@
 # DB Cloner Shell Script!
 
-This shell script is especially for the geeks who deal with multiple server environtment and want to run some test on a production database, but without affecting data itself, all you need is **DB Cloner** to make sure the environtments are equally matched, let's play, hope it help!
+This shell script is especially for the geeks who deal with multiple server environtment and want to run some test on a production database, but without affecting data itself, all you need is **DB Cloner** to make sure the environment are equally matched, let's play, hope it help!
 
 
 # Requirements
@@ -34,7 +34,7 @@ The script can easily be configured using the variables at the top of the script
     
 ## Run
 
-After the above step have completed matched with your 
+After the above step have completed matched with your config, 
 Let's run this script with:
 
     ./clone.sh
