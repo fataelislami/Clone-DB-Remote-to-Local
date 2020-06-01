@@ -34,7 +34,7 @@ The script can easily be configured using the variables at the top of the script
     
 ## Run
 
-After the above step have completed matched with your config, 
+After the above step have completely matched with your config, 
 Let's run this script with:
 
     ./clone.sh
