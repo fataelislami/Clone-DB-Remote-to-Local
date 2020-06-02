@@ -45,4 +45,4 @@ mysqldump -u $DB_USER $DB_PASS_SWITCH \
   mysql -u $DB_USER $DB_PASS_SWITCH $DB_NAME
 
 # restore new database
-pv $DUMP_FILE | mysql -u $DB_USER -p$DB_PASS_SWITCH $DB_NAME
+pv $DUMP_FILE | mysql -u $DB_USER $DB_PASS_SWITCH $DB_NAME
