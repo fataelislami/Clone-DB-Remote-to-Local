@@ -24,7 +24,7 @@ DUMP_FILE="dump.sql"       # SQL DUMP FILENAME
 
 # get remote database
 
-if [ "$DB_PASS" == "" ];
+if [ "$REMOTE_PASS" == "" ];
 then
   mysqldump -h $REMOTE_HOST -u $REMOTE_USER $REMOTE_DB > $DUMP_FILE
 else
